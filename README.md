@@ -1,0 +1,1 @@
+Repositório criado para documentar meus desafios e progresso no #7DaysOfCode promovido pela Rafa Ballerini. O projeto consiste em resolver 7 desafios independentes durante uma semana.
