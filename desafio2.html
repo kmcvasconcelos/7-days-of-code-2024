@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>#7DaysOfCode</title>
+
+        <script>
+            alert('Esse é o 2o dia do 7 Days Of Code =)')
+            /*O sistema deve pedir para o usuário responder 3 perguntas:
+            - Qual o seu nome?
+            - Quantos anos você tem?
+            - Qual linguagem de programação você está estudando?*/
+
+            var nomeUsuario = prompt('Qual o seu nome?');
+            var idadeUsuario = prompt('Quantos anos você tem?');
+            var linguagem = prompt('Qual linguagem de programação você está estudando?');
+
+            //No final, o sistema vai exibir a mensagem: "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
+
+            alert(`Olá ${nomeUsuario}, você tem ${idadeUsuario} anos e já está aprendendo ${linguagem}!`);
+
+            var resposta = prompt(`você gosta de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`);
+
+            if (resposta == 1) {
+                alert('Muito bom! Continue estudando e você terá muito sucesso!');
+            } else if (resposta == 2) {
+                alert('Ahh, que pena... Seria uma boa tentar aprender outras linguagens.');
+            } else {
+                alert('Poxa, essa resposta não é válida...')
+            }
+        </script>
+    </head>
+</html>
